@@ -16,11 +16,17 @@ Android's runtime permission model restricts application access to sensitive dev
 
 Resource: Android Developers - Permissions on Android - https://developer.android.com/guide/topics/permissions/overview
 ## Networking
+DNS over HTTPS (DoH) is a protocol designed to perform remote Domain Name System (DNS) resolution via the HTTPS protocol. By encapsulating DNS queries and responses within encrypted TLS traffic, DoH protects users of the service from local eavesdropping, Man-in-the-Middle (MitM) tracking, and packet inspection by third-party network operators. However, DoH does not protect users from malicious server endpoints, upstream DNS resolver logging, or underlying IP address exposure at the transport layer.
 
+Resource: RFC 8484 - DNS Queries over HTTPS (DoH) - https://datatracker.ietf.org/doc/html/rfc8484
 ## Cybersecurity
+An authentication method is considered "phishing-resistant" when it cryptographically binds the authentication session to a specific origin service and relies on secure channels that cannot be bypassed or replicated by malicious third-party relay sites. Hardware-based FIDO2 / WebAuthn security keys and platform authenticators (such as Windows Hello or Apple Touch ID using public-key cryptography) qualify as phishing-resistant. Conversely, traditional multi-factor authentication methods like SMS OTP, email OTP, and push notifications without origin binding do not qualify because they remain vulnerable to interception and real-time adversary-in-the-middle phishing portals.
 
+Resource: NIST Special Publication 800-63B - Digital Identity Guidelines: Authentication and Lifecycle Management - https://pages.nist.gov/800-63-3/sp800-63b.html
 ## Data
+Under Oman's Personal Data Protection Law (Promulgated by Royal Decree No. 6/2022), the authority acting as a data controller must obtain explicit, informed, and documented consent from citizens prior to collecting, processing, or storing personal data. The authority is legally obligated to implement strict technical and organizational measures to safeguard personal data against unauthorized access, leakage, or alteration, ensure data accuracy, retain data only as long as necessary for the specified purpose, and respect individuals' rights to access and correct their personal information.
 
+Resource: Ministry of Transport, Communications and Information Technology - Personal Data Protection Law - https://www.mtcit.gov.om/ITAPortal/DocumentLibrary/UserFiles/Files/PersonalDataProtectionLawEN.pdf
 ## Misconception in My Track
 
 ## Open Question
