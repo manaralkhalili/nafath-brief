@@ -31,3 +31,5 @@ Resource: Ministry of Transport, Communications and Information Technology - Per
 A common misconception regarding data protection in Oman is that obtaining initial consent from citizens permits an authority to store, process, and repurpose personal data indefinitely for any future internal projects. In reality, under Oman's Personal Data Protection Law, consent must be specific and for a defined purpose, and data must not be kept longer than necessary to fulfill that original purpose. Furthermore, data subjects retain the legal right to withdraw their consent at any time. This principle is explicitly established in Chapter Three regarding the provisions of processing personal data and data subjects' rights under the Personal Data Protection Law.
 ## Open Question
 What specific cross-border data transfer mechanisms and localized cloud storage requirements does Oman's Personal Data Protection Law mandate when integrating external cloud identity providers?
+
+  
